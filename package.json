@@ -1,5 +1,5 @@
 {
-  "name": "react-test-jast-enzyme",
+  "name": "react-test-jest-enzyme",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --setupFiles ./src/setupTest.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
